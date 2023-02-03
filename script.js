@@ -2,7 +2,12 @@ const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-ctx.fillStyle = 'white';
+// let grd = ctx.createLinearGradient(0, 0, canvas.width, canvas.height)
+
+ctx.fillStyle = 'blue';
+// ctx.strokeStyle = 'orange';
+// ctx.lineWidth = 20;
+
 
 class Ball {
     constructor(effect) {
@@ -23,6 +28,7 @@ class Ball {
         context.beginPath();
         context.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
         context.fill();
+        // context.stroke();
     }
     reset(){
         this.x = this.effect.width * 0.5;
