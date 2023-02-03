@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 // let grd = ctx.createLinearGradient(0, 0, canvas.width, canvas.height)
 
-ctx.fillStyle = 'blue';
+ctx.fillStyle = 'red';
 // ctx.strokeStyle = 'orange';
 // ctx.lineWidth = 20;
 
