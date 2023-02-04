@@ -4,9 +4,9 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 // let grd = ctx.createLinearGradient(0, 0, canvas.width, canvas.height)
 
-ctx.fillStyle = 'red';
-// ctx.strokeStyle = 'orange';
-// ctx.lineWidth = 20;
+ctx.fillStyle = "#E85188";
+ctx.strokeStyle = '#58DBAD';
+ctx.lineWidth = 10;
 
 
 class Ball {
@@ -28,7 +28,7 @@ class Ball {
         context.beginPath();
         context.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
         context.fill();
-        // context.stroke();
+        context.stroke();
     }
     reset(){
         this.x = this.effect.width * 0.5;

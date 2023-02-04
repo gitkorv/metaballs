@@ -11,5 +11,12 @@ body {
 canvas {
     display: block;
     background: black;
-    filter: blur(10px) contrast(20);
+    filter: blur(20px);
+}
+
+.overlay {
+    height: 100dvh;
+    width: 100dvh;
+    /* background-color: aqua; */
+    filter: contrast(30);
 }
