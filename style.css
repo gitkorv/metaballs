@@ -5,12 +5,12 @@
 }
 
 body {
-    background: black;    
+    background: white;    
 }
 
 canvas {
     display: block;
-    background: black;
+    background: white;
     filter: blur(20px);
 }
 
