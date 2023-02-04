@@ -14,7 +14,7 @@ class Ball {
         this.effect = effect;
         this.x = this.effect.width * 0.5;
         this.y = this.effect.height * 0.5;
-        this.radius = Math.random() * 120 + 20;
+        this.radius = Math.random() * 80 + 20;
         this.speedX = Math.random() - 0.5;
         this.speedY = Math.random() - 0.5;
     }
